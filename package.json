@@ -1,0 +1,25 @@
+{
+  "name": "vuejs-easy-validator",
+  "version": "1.0.0",
+  "description": "A useful form validator for VueJS framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/herveperchec/vuejs-easy-validator.git"
+  },
+  "keywords": [
+    "VueJs",
+    "Vue",
+    "Validator",
+    "Form"
+  ],
+  "author": "Hervé Perchec <herve.perchec@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/herveperchec/vuejs-easy-validator/issues"
+  },
+  "homepage": "https://github.com/herveperchec/vuejs-easy-validator#readme"
+}
