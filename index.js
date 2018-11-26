@@ -1,10 +1,10 @@
 /*
 
-    VueJS easy validator
+    Validator service
 
-    Author: Hervé PERCHEC
+    By Hervé PERCHEC
 
-    -> To easily validate a form
+    -> Validate a form
 
 */
 
@@ -102,7 +102,7 @@ export function mapFieldCheckers ( { ref, fields, prefix = "" } ) {
     // Reduce fields in o 
     return fields.reduce( (o, field) => {
         const fieldNameChecker = prefixOk + field + 'Checker'
-        o[fieldNameChecker] = () => {
+        o[fieldNameChecker] = function() {
             var validator = eval(ref)
             return !(validator.fields[field].hasErrors()) 
         }   
